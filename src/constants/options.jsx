@@ -57,15 +57,16 @@ export const SelectBudgetOptions=[
 export const AI_PROMPT = `
 Generate a travel plan for the location: {location}, for {totalDays} days with {Companion}, and a {budget} budget. 
 Provide a list of hotel options including:
-- Hotel Name
+- Four to Five Hotel Names
 - Hotel Address
-- Accurate real-time price (in local currency)
+- Accurate real-time price (in Indian currency)
 - Hotel Image URL
 - Precise geo-coordinates (latitude, longitude)
 - Rating
 - Descriptions
 
 Also, suggest an itinerary with:
+- 6-8  Places to visit whole day and also give restaurant suggestions for dinner and lunch for  each day
 - Place Name
 - Place Address 
 - Place Details

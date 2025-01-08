@@ -1,16 +1,13 @@
-{ "homepage": "https://jeevesh0013.github.io/Fravel_ai_trip_planner/",
+{
   "name": "trip-planner",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    
+    "preview": "vite preview"
   },
   "dependencies": {
     "@google/generative-ai": "^0.19.0",
