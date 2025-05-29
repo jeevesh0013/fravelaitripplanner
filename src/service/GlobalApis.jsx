@@ -1,7 +1,7 @@
 // globalApi.jsx
 import axios from 'axios';
 
-const apiKey = 'bFqtykkqt4pVAeoOl1be19IORXMelx7JugB0CqJ4ICQM3BPK824vMq77'; // Replace with your actual API key
+const apiKey = '*****************************'; // Replace with your actual API key
 
 export const fetchImages = async (query) => {
   const url = `https://api.pexels.com/v1/search?query=${query}&per_page=5`;
